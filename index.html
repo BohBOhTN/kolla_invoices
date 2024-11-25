@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="invoice-full">
+        <header class="header">
+            <div class="company-info">
+                <div class="company-adress">
+                    <p>ROUTE DE SOUKRA KM 3,5 SFAX</p>
+                    <p>MF : 1749683EAE901</p>
+                    <p>Tél : 55 185 581 / 52 438 018</p>
+                </div>
+                <img src="images/logo.png" alt="Company Logo" class="logo">
+                
+            </div>
+        </header>
+
+        <div class="invoice">
+            <table class="invoice-table">
+              <thead>
+                <tr>
+                  <th>REF</th>
+                  <th>QTE</th>
+                  <th>DESIGNATION</th>
+                  <th>PU HT</th>
+                  <th>TOTAL HT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>D632</td>
+                  <td>10</td>
+                  <td>Repas Complet</td>
+                  <td>51,300 TND</td>
+                  <td>513,000 TND</td>
+                </tr>
+                
+                <!-- Add more rows if needed -->
+              </tbody>
+            </table>
+        
+            <div class="totals">
+                <div class="left">
+                  <table>
+                    <tr>
+                      <td class="totals-header">Base TVA 7%</td>
+                      <td>513,000 TND</td>
+                    </tr>
+                    <tr>
+                      <td class="totals-header">Montant TVA</td>
+                      <td>35,910 TND</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">Cinq cent cinquante dinars.</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="right">
+                  <table>
+                    <tr>
+                      <td class="totals-header">Montant HT</td>
+                      <td>513,000 TND</td>
+                    </tr>
+                    <tr>
+                      <td class="totals-header">Montant TVA 7%</td>
+                      <td>35,910 TND</td>
+                    </tr>
+                    <tr>
+                      <td class="totals-header">Timbre</td>
+                      <td>1,000 TND</td>
+                    </tr>
+                    <tr class="total">
+                      <td>Total Net à payer TTC</td>
+                      <td>550,000 TND</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              
+          </div>
+       
+
+        <footer class="footer">
+            <img src="images/stamp.png" alt="Company Stamp" class="stamp">
+        </footer>
+    </div>
+</body>
+</html>
