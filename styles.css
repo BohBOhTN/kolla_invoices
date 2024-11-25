@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -25,13 +25,12 @@ body {
 }
 .logo {
     max-width: 150px;
-    margin-bottom: 10px;
 }
 
 
 .footer {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .stamp {
@@ -50,6 +49,29 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  .invoice-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.invoice-date {
+    text-align: left;
+    font-weight: bold;
+}
+
+.invoice-number {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.client-info {
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
   
   .invoice-table {
     width: 100%;
