@@ -1,0 +1,20 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+invoice_env/
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+*.swp
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
